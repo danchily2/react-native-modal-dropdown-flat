@@ -40,7 +40,7 @@ const TOUCHABLE_ELEMENTS = [
   'TouchableNativeFeedback',
 ];
 
-export class ModalDropdown extends Component {
+export default class ModalDropdown extends Component {
   static propTypes = {
     disabled: PropTypes.bool,
     scrollEnabled: PropTypes.bool,

@@ -1,6 +1,9 @@
 {
   "name": "react-native-modal-dropdown-flat",
-  "version": "1.0.0",
+  "version": "0.0.3",
+  "dependencies": {
+    "prop-types": "~15.7.2"
+  },
   "description": "A react-native dropdown/picker/selector component for both Android & iOS.",
   "main": "index.js",
   "scripts": {
