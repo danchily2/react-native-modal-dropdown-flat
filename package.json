@@ -1,0 +1,25 @@
+{
+  "name": "react-native-modal-dropdown-flat",
+  "version": "1.0.0",
+  "description": "A react-native dropdown/picker/selector component for both Android & iOS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danchily2/react-native-modal-dropdown-flat.git"
+  },
+  "keywords": [
+    "modal",
+    "dropdown",
+    "ios",
+    "android"
+  ],
+  "author": "Dan-Mihai CUC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danchily2/react-native-modal-dropdown-flat/issues"
+  },
+  "homepage": "https://github.com/danchily2/react-native-modal-dropdown-flat#readme"
+}
