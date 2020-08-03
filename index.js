@@ -29,6 +29,7 @@ import {
   TouchableHighlight,
   Modal,
   ActivityIndicator,
+  YellowBox,
 } from 'react-native';
 
 import PropTypes from 'prop-types';
@@ -96,10 +97,10 @@ export default class ModalDropdown extends Component {
       selectedIndex: props.defaultIndex,
     };
   }
-
-  static getDerivedStateFromProps(props, state) {
-    let { buttonText, selectedIndex } = state;
-    const { defaultIndex, defaultValue, options } = props;
+  YellowBox.ignoreWarnings(['componentWillReceiveProps']);
+  componentWillReceiveProps(nextProps) {
+    let { buttonText, selectedIndex } = this.state;
+    const { defaultIndex, defaultValue, options } = nextProps;
     buttonText = this._nextValue == null ? buttonText : this._nextValue;
     selectedIndex = this._nextIndex == null ? selectedIndex : this._nextIndex;
     if (selectedIndex < 0) {
