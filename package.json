@@ -1,6 +1,6 @@
 {
   "name": "react-native-modal-dropdown-flat",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "dependencies": {
     "prop-types": "~15.7.2"
   },
