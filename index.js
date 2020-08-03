@@ -41,6 +41,7 @@ const TOUCHABLE_ELEMENTS = [
   'TouchableNativeFeedback',
 ];
 
+YellowBox.ignoreWarnings(['componentWillReceiveProps']);
 export default class ModalDropdown extends Component {
   static propTypes = {
     disabled: PropTypes.bool,
@@ -97,7 +98,6 @@ export default class ModalDropdown extends Component {
       selectedIndex: props.defaultIndex,
     };
   }
-  YellowBox.ignoreWarnings(['componentWillReceiveProps']);
   componentWillReceiveProps(nextProps) {
     let { buttonText, selectedIndex } = this.state;
     const { defaultIndex, defaultValue, options } = nextProps;
