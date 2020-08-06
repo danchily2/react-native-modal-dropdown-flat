@@ -2,7 +2,7 @@
 
 "author": "sohobloo <sohobloo@live.cn> (https://github.com/sohobloo)",
 
-# react-native-modal-dropdown
+# react-native-modal-dropdown-flat
 
 A react-native dropdown/picker/selector component for both Android & iOS using flatlist.
 
